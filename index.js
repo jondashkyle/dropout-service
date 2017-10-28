@@ -5,6 +5,8 @@ var env = { PORT: 8080 }
 var app = merry({ env: env })
 
 app.route('GET', '/', function (req, res, ctx) {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Methods', 'GET,PUT,POST,DELETE')
   ctx.log.info('oh hey, a request here')
   ctx.send(200, { cute: 'butts' })
 })
