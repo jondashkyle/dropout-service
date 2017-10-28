@@ -10,8 +10,9 @@
   "author": "Jon-Kyle <contact@jon-kyle.com> (http://jon-kyle.com)",
   "license": "ISC",
   "dependencies": {
-    "dropout": "^1.0.1",
+    "dropout": "^1.0.2",
     "getport": "^0.1.0",
-    "merry": "^5.4.0"
+    "merry": "^5.4.0",
+    "parse-body": "^1.0.3"
   }
 }
