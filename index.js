@@ -8,7 +8,6 @@ var env = { PORT: 8080 }
 var app = merry({ env: env })
 
 app.route('POST', '/', function (req, res, ctx) {
-  console.log(req)
   parseBody(req, 1e6, function (err, body) {
     if (err) ctx.send(500, { message: err.message }, headers())
     ctx.log.info('request: ' + body.url)
