@@ -10,7 +10,7 @@ An easily self-deployable microservice for nabbing data from [`dropout`](https:/
 
 ## features
 
-- Basically nothing :party:
+- Basically nothing 🎉
 
 `POST` at `/` with a `url` in the form data to receive data which looks something like this:
 
